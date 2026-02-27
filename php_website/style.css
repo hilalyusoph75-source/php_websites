@@ -1,0 +1,84 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background: #f3f4f6;
+    color: #111827;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #111827;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #38bdf8;
+}
+
+/* HEADER */
+.site-header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #2563eb, #1e3a8a);
+    color: white;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.skills li {
+    background: #2563eb;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* LINKS */
+a {
+    color: #2563eb;
+}
+
+/* FOOTER */
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: #ffffff;
+    margin-top: 30px;
+}
